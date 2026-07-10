@@ -1,0 +1,287 @@
+nav{
+    display: flex;
+    height:90px;
+    background:white;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav img{
+    height: 40px;
+    margin-left: 90px;
+}
+nav ul li{
+    display: inline;
+    justify-content: right;
+    list-style: none;
+    text-align: center;
+
+}
+nav ul li a{
+    color:grey ;
+    margin: 10px;
+    text-decoration: none;
+}
+nav button{
+    padding: 10px 25px;
+    color: rgb(247, 247, 249);
+    background: rgb(56, 56, 195);
+    border: none;
+    border-radius: 7px;
+    margin-right: 90px;
+    margin-top: 7px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(to right, black, transparent),url(banner.jpg) ;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+   
+}
+.hero h1{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 360px;
+    
+
+}
+
+.hero p{
+    margin: 0 auto;
+    max-width: 700px;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;    
+    
+}
+
+.hero button{
+    padding: 15px 40px;
+    margin:350px;
+    color: white;
+    background-color: rgb(56, 56, 243);
+    border: none;
+    border-radius: 7px;
+    cursor:pointer;
+}
+.speakers{
+    padding: 30px 100px;
+    background: white;
+}
+.speakers h2{
+    text-align: center ;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.speaker-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border:0.5px solid rgb(239, 239, 241);
+    overflow: hidden;
+    border-radius: 7px;
+    height: 400px;
+    width:600px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 0;
+}
+.card-text{
+    padding: 20px;
+}
+.card-text h5{
+    color:rgb(108, 180, 208);
+    font-size: 12px;
+    margin:0;
+}
+.card-text h4{
+    color:black;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 8px 0;
+}
+.card-text p{
+    color:rgb(135, 131, 131);
+    font-family: sans-serif;
+    font-size: 15px;
+    margin:0px;
+    text-align: left;
+}
+.pricing{
+    padding: 30px 100px;
+    text-align: center;
+    margin: 0px;
+}
+.pricing h2{
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 0px;
+
+}
+.pricing p{
+    color: grey;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 10px;
+
+}
+.price-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.price-card{
+    border: .5px solid rgb(189, 188, 188);
+    border-radius: 7px;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    margin: 10px 20px;
+}
+.price-card h5{
+    color: rgb(149, 146, 146);
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 5px;
+
+}
+.price-card h2{
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 15px;
+    
+
+}
+.price-card p{
+    color: rgb(190, 189, 189);
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 4px;
+
+}
+.price-card hr{
+    color:rgb(154, 150, 150) ;
+}
+
+.price-card ul{
+    color: rgb(154, 150, 150);
+    padding-left: 30px;
+}
+.price-card ul li{
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.price-card ul li::marker{
+    color: rgb(25, 119, 207);
+}
+.special{
+    background-color: rgb(25, 25, 50);
+    color: white;
+}
+.special h5{
+    color: rgb(136, 165, 219);
+}
+.special h2{
+    color: white;
+}
+.price-card button{
+    padding: 7px 80px;
+    color: rgb(72, 182, 246);
+    background: white;
+    border-color: rgb(84, 179, 233);
+    border-radius: 7px;
+    margin-bottom: 15px;
+
+}
+.special button{
+    color: white;
+    background-color:rgb(85, 85, 255) ;
+    border: none;
+}
+.special2 button{
+    color: black;
+    border-color: black;
+}
+
+.extra h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+}
+.extra p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:gray ;
+    text-align: center;
+
+}
+.extra-card-container{
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.extra-card{
+
+    background-color: rgb(196, 218, 255);
+    border: 0.5px solid rgb(130, 129, 129);
+    border-radius: 7px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.extra-card h4{
+    font-size: 15px;
+    color:rgb(7, 14, 49)
+}
+.extra-card p{
+    font-size: 15px;
+    color:black;
+}
+.extra-card img{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(150, 149, 149);
+
+}
