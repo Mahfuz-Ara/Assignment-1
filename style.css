@@ -35,7 +35,7 @@ nav button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:linear-gradient(to right, black, transparent),url(banner.jpg) ;
+    background:linear-gradient(to right, black, transparent),url(assets/banner.jpg) ;
     align-items: center;
     background-size: cover;
     background-position: center;
